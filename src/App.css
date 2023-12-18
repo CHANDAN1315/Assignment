@@ -1,0 +1,172 @@
+body {
+  margin: 0;
+  padding: 0;
+  color: #f7f7f7;
+  min-height: 100vh;
+  background: #252525;
+  text-rendering: optimizeSpeed;
+  font-family: "Roboto", sans-serif;
+}
+input,textarea {
+  width: 250px;
+  padding: 0.8em;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+  margin-bottom: 0px;
+}
+
+li {
+  width: 450px;
+  padding: 0.85em;
+  text-align: left;
+  margin-bottom: 0.5rem;
+  background: #494847;
+  letter-spacing: 0.02rem;
+  transition: all 0.3s ease-out;
+  border-left: 5px solid #cf972e;
+}
+
+li:last-child {
+  margin-bottom: 0px;
+}
+input, textarea,
+button {
+  font-size: 1em;
+  appearance: none;
+  color: currentcolor;
+  background: transparent;
+  border: 1px solid #828691;
+}
+
+.delete-button {
+  color: #fe6a6a;
+}
+
+.delete-button:hover {
+  color: #252525;
+  background: #fe6a6a;
+}
+
+.nav {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: #c26041;
+  color: #ccc;
+}
+.navlink {
+  color: #ccc;
+  text-decoration: none;
+  font-size: 1.4em;
+}
+.logo {
+  color: #ccc;
+}
+.navlink:hover {
+  color: #212121;
+}
+.hamburger {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+.btnwrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 10% 30%;
+}
+
+.heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem 6rem;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font: bold;
+  font-size: large;
+}
+.spantxt {
+  font-style: italic;
+  color: rgb(223, 81, 52);
+  font-size: 28px;
+  line-height: 24px;
+}
+
+.inputlable {
+  display: flex;
+  flex-direction: row;
+  padding: 5px 0px;
+  justify-content: space-between;
+}
+.App {
+  padding: 1rem;
+  max-width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  background: #333;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 2px 5px;
+}
+
+
+.input-wrapper {
+  margin: 3.5rem;
+
+}
+
+.todos-wrapper {
+  margin-bottom: 2.5rem;
+}
+
+.todo {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.add-button {
+  padding: 1rem;
+  border: none;
+  border-radius: 4px;
+  color: #44c0b6;
+  border-left: none;
+  cursor: pointer;
+}
+
+.add-button:hover {
+  color: #252525;
+  background: #44c0b6;
+}
+
+.btn{
+  padding: 1rem;
+  border: none;
+  border-radius: 4px;
+  color: #252525;
+  background: #44c0b6;
+  border-left: none;
+  cursor: pointer;
+}
+.btn:hover {
+  background: #0ba598;
+  color: #ccc;
+}
+.todo-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.listItme {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
